@@ -213,12 +213,14 @@
          <div className="react-listbox-center-toolbar">
            <div className="move-right">
              <button
+               type="button"
                className="btn-move"
                onClick={this.onMoveAllRight}
              >
                {moveAllRightIcon}
              </button>
              <button
+               type="button"
                className="btn-move"
                onClick={this.onMoveRight}
              >
@@ -227,12 +229,14 @@
            </div>
            <div className="move-left">
              <button
+               type="button"
                className="btn-move"
                onClick={this.onMoveLeft}
              >
                {moveLeftIcon}
              </button>
              <button
+               type="button"
                className="btn-move"
                onClick={this.onMoveAllLeft}
              >
@@ -255,6 +259,7 @@
            <div className="react-listbox-right-toolbar">
              <div className="move-top">
                <button
+                 type="button"
                  className="btn-move"
                  disabled={this.state.rightSelected.length !== 1}
                  onClick={this.onMoveAllUp}
@@ -262,6 +267,7 @@
                  {moveTopIcon}
                </button>
                <button
+                 type="button"
                  className="btn-move"
                  disabled={this.state.rightSelected.length !== 1}
                  onClick={this.onMoveUp}
@@ -271,6 +277,7 @@
              </div>
              <div className="move-bottom">
                <button
+                 type="button"
                  className="btn-move"
                  disabled={this.state.rightSelected.length !== 1}
                  onClick={this.onMoveDown}
@@ -278,6 +285,7 @@
                  {moveDownIcon}
                </button>
                <button
+                 type="button"
                  className="btn-move"
                  disabled={this.state.rightSelected.length !== 1}
                  onClick={this.onMoveAllDown}
